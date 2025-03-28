@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+body{
+  background-color: #2b2a2a; /* Deep blackboard color */
+  background-image: url("https://www.transparenttextures.com/patterns/black-board.png"); /* Chalk texture */
+  font-family: "Schoolbell", cursive;
+  color: white;
+}
+
+.container {
+    text-align: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  .heading{
+    text-decoration:underline ;
+    color:white;
+    font-size: larger;
+  }
+  
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  button {
+    background-color: #1c1c1c; /* Black Chalkboard */
+  color: white;
+  font-family: "Schoolbell", cursive; /* Chalk-like font */
+  font-size: 22px;
+  border: 3px solid white; /* Chalk effect */
+  padding: 12px 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  outline: none;
+  display: inline-block;
+  }
+  

@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+
+
+.squareBox {
+  width: 150px;
+  height: 150px;
+  background-color: #2b2a2a; /* Dark chalkboard background */
+  background-image: url("https://www.transparenttextures.com/patterns/black-board.png");
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-family: "Schoolbell", cursive;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: background 0.2s ease-in-out, transform 0.1s;
+}
+
+.squareBox:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.squareBox:active {
+  transform: scale(0.95);
+}
+@keyframes dustEffect {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--x-move), var(--y-move)) scale(0.5);
+  }
+}
+
+
