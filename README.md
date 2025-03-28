@@ -24,9 +24,6 @@ cd tic-tac-toe
 
 Install dependencies and start the app:
 
-bash
-Copy
-Edit
 npm install
 npm start
 Open (http://localhost:5173/) in your browser to play.
@@ -34,4 +31,4 @@ Open (http://localhost:5173/) in your browser to play.
 Deployment
 The app is deployed on Vercel. You can play the game live at:
 
-https://your-vercel-deployment-url
+[https://your-vercel-deployment-url](https://tic-tac-lubtc1lnj-gopikas-projects-e7cef3f0.vercel.app/)
