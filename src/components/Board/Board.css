@@ -1,37 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
-body{
+
+body {
   background-color: #2b2a2a; /* Deep blackboard color */
   background-image: url("https://www.transparenttextures.com/patterns/black-board.png"); /* Chalk texture */
   font-family: "Schoolbell", cursive;
   color: white;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    text-align: center;
-  }
-  
-  .header {
-    margin-bottom: 20px;
-  }
-  .heading{
-    text-decoration:underline ;
-    color:white;
-    font-size: larger;
-  }
-  
-  
-  .board {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .row {
-    display: flex;
-  }
-  
-  button {
-    background-color: #1c1c1c; /* Black Chalkboard */
+  text-align: center;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.heading {
+  text-decoration: underline;
+  color: white;
+  font-size: larger;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #1c1c1c; /* Black Chalkboard */
   color: white;
   font-family: "Schoolbell", cursive; /* Chalk-like font */
   font-size: 22px;
@@ -44,5 +53,54 @@ body{
   position: relative;
   outline: none;
   display: inline-block;
+  margin: 5px;
+  width: 110px;
+  height: 60px;
+  flex: 1;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem; /* Smaller heading for mobile */
   }
-  
+
+  button {
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .board {
+    width: 80%; /* Make the board take 80% of the container width */
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.2rem; /* Further decrease heading size */
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px;
+    width: 100px;
+    height: 45px;
+  }
+
+  .board {
+    width: 90%; /* Make the board take 90% of the container width */
+  }
+
+
+}
+
+@media (max-width: 320px) {
+  button {
+    font-size: 14px;
+    padding: 6px;
+    width: 100px;
+    height: 40px;
+  }
+}

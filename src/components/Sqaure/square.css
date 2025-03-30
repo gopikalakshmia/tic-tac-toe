@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 
-
 .squareBox {
   width: 150px;
   height: 150px;
@@ -25,6 +24,7 @@
 .squareBox:active {
   transform: scale(0.95);
 }
+
 @keyframes dustEffect {
   0% {
     opacity: 1;
@@ -36,4 +36,27 @@
   }
 }
 
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+  .squareBox {
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+  }
+}
 
+@media (max-width: 480px) {
+  .squareBox {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .squareBox {
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+  }
+}
