@@ -1,12 +1,34 @@
-# React + Vite
+# Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Tic Tac Toe game built with **React** and **CSS**. The game celebrates when a player wins with confetti and an audio sound effect. It’s deployed on **Vercel**.
 
-Currently, two official plugins are available:
+## Features
+- Two-player gameplay.
+- Confetti and audio when a player wins.
+- Responsive design for all devices.
+- Deployed on [Vercel]([https://your-vercel-deployment-url](https://tic-tac-lubtc1lnj-gopikas-projects-e7cef3f0.vercel.app/)).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Play
+1. Open the game in your browser or visit the deployed version on Vercel.
+2. Players take turns placing X or O on the 3x3 grid.
+3. The first to get three marks in a row wins.
+4. Enjoy the confetti and victory sound when you win!
 
-## Expanding the ESLint configuration
+## Getting Started Locally
+Clone the repository:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/yourusername/tic-tac-toe.git
+cd tic-tac-toe
+
+
+Install dependencies and start the app:
+
+npm install
+npm start
+Open [http://localhost:5173/] in your browser to play.
+
+Deployment
+The app is deployed on Vercel. You can play the game live at:
+
+[https://tic-tac-lubtc1lnj-gopikas-projects-e7cef3f0.vercel.app/]
